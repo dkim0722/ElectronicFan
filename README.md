@@ -1,6 +1,6 @@
 # Electronic Fan
 ## Features:
-### -System uses PIC18F4620 microcontroller to control electronic fan speed using PWM module.
-### -Input DIP switches provides 8 speed modes labeled Mode 0 - 7.
-### -TFT Module visualizes System On/Off, Current Mode, Saved Mode, and RPM data.
-### -Push buttons use interrupts to save a Mode and run the fan at the Saved Mode.
+### -Programmed PIC18F4620 microcontroller in C to PWM control and measure electronic fan speed.
+### -DIP switches enable 8 speed modes: Mode 0 (Fan off) to Mode 7 (98% PWM duty cycle)
+### -Displays System On/Off, Current Mode, Saved Mode, and RPM on TFT Panel.
+### -Configured interrupts to store current Mode or run the fan at the saved Mode by pressing a push button switch.
